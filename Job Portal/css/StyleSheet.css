@@ -1,0 +1,78 @@
+﻿	ul#list-nav {
+list-style:none;
+margin:80px 0px 0px -0.5px;
+padding:0;
+width:1100px
+}
+
+ul#list-nav li {
+display:inline;
+}
+
+ul#list-nav li a {
+text-decoration:none;
+padding:5px 0;
+width:100px;
+background:#485e49;
+color:#eee;
+float:left;
+text-align:center;
+border-left:1px solid #fff;
+}
+
+ul#list-nav li a:hover {
+background:#a2b3a1;
+color:#000
+}
+
+.sliderwrapper{
+position: relative; /*leave as is*/
+overflow: hidden; /*leave as is*/
+border: 10px solid #293E5C;
+border-bottom-width: 6px;
+width: 645px; /*width of featured content slider*/
+height: 250px;
+}
+
+
+
+.sliderwrapper .contentdiv{
+visibility: hidden; /*leave as is*/
+position: absolute; /*leave as is*/
+left: 0;  /*leave as is*/
+top: 0;  /*leave as is*/
+padding: 0px;
+background: white;
+width: 645px; /*width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
+height: 100%;
+/*filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;*/
+}
+
+.pagination{
+width: 645px; /*Width of pagination DIV. Total width should equal slider's outer width (400+10+10=420)*/
+text-align: right;
+background-color: #293E5C;
+padding: 5px 10px;
+}
+
+.pagination a{
+padding: 0 5px;
+text-decoration: none; 
+color: #00007D;
+background: white;
+}
+
+.pagination a:hover, .pagination a.selected{
+color: #000;
+background-color: #a2b3a1;
+}
+
+/*
+.clear{clear:both;}
+.marr10{margin-right:10px;}
+
+.footer{width:1100px;margin:0;position: absolute;margin:0px 0px 0px 0px; background:#f4f4f4 url('/media/images/footer_bg.gif') repeat-x 0 -2px;border-top:1px solid #c9dbec;padding-top:2px;clear:both;min-width:100px;}.footer_bb{border-bottom:1px solid #f6f6f6;}
+.footer_bt{border-top:1px solid #aeaeae;}.footer_bl{border-left:1px solid #f6f6f6;}.footer_br{border-right:1px solid #aeaeae;}.footer_inner{width:1504px;padding:5px 4px;margin:0 auto;color:#555;font-size:11px;}.footer_row_one{padding:3px 0 10px;}.footer_row_two{padding:10px 0;}.footer_row_three{padding:10px 0;}.footer_title{text-transform:uppercase;font-size:14px;font-weight:bold;margin-bottom:10px;}.h140{height:140px;}.footer_about{width:540px;}.footer_thawte{background:url('/media/images/thawte.gif') no-repeat right top;width:100px;padding-right:65px;}.footer_testimonials{width:340px;}.footer_testimonials img{border:1px solid #ccc;padding:5px;background-color:#fff;}.testimonials_text{width:265px;}.footer ul li{padding-bottom:5px;}.padl0{padding-left:0!important;}.pad520{padding:5px 20px!important;}.pad1020{padding:10px 20px!important;}.height100{height:100px;}.h90{height:90px;}.cat_ul{float:left;width:120px;}.trust_ul{float:left;}.footer_bullet li{background:url("/media/images/spone.png") no-repeat 2px -731px!important;padding:2px 10px 2px 18px;}.footer_custcare_title{line-height:30px;height:30px;padding-left:45px;text-transform:uppercase;font-size:14px;font-weight:bold;background-position:-36px -355px;}.our_stores{background:url("/media/images/spone.png") no-repeat top left;}.our_stores.bigbazaar{width:70px;height:25px;background-position:0 -164px;}.our_stores.pantaloons{width:93px;height:25px;background-position:0 -189px;}.our_stores.central{width:95px;height:25px;background-position:0 -214px;}.our_stores.ezone{width:97px;height:25px;background-position:0 -239px;}.our_stores.hometown{width:93px;height:25px;background-position:0 -264px;}.our_stores.planet{width:134px;height:25px;background-position:0 -289px;}.our_stores.holii{width:39px;height:25px;background-position:0 -314px;}.footer_bottom{background-color:#E1F3FE;}.footer_bottom_inner{width:1004px;margin:0 auto;text-align:center;padding:5px 10px;}
+*/

@@ -1,0 +1,48 @@
+/* Main CSS */
+
+*{
+margin:0;
+padding:0;
+}
+
+#wrapper{
+width:960px;
+margin:0 auto;
+background-color:#d4e0f2;
+border:1px solid #696a6a;
+background-image: -moz-linear-gradient(top, #EFCFCB 0%, #A3E0FF 100%);
+background-image: -webkit-linear-gradient(top, #EFCFCB 0%, #A3E0FF 100%);
+background-image: linear-gradient(top, #EFCFCB 0%, #A3E0FF 100%);
+background-image: -ms-linear-gradient(top, #EFCFCB 0%, #A3E0FF 100%);
+background-color:#A3E0FF;
+}
+
+body{
+/*width: 1000px;
+margin:10px 100px 10px 100px;
+position:relative;
+border: thin solid #808080;*/
+
+}
+
+#footer
+{
+	background-image: -webkit-linear-gradient(bottom, #293E5C 0%, #7EB7BF 100%);
+	background-image: -o-linear-gradient(bottom, #293E5C 0%, #7EB7BF 100%);
+	background-image: -moz-linear-gradient(bottom, #293E5C 0%, #7EB7BF 100%);
+    color:black;
+    font-weight:bold;
+    text-align:center;
+    background-color:#98D1FA;
+}
+
+#jobposttable tr
+{
+	height:30px;
+}
+
+#companyproftable tr
+{
+	height:50px;
+}
+

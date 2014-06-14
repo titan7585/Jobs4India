@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job Portal", "Job Portal\Job Portal.csproj", "{0059FEA7-6CD5-4642-AD4D-C66E2C117582}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0059FEA7-6CD5-4642-AD4D-C66E2C117582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0059FEA7-6CD5-4642-AD4D-C66E2C117582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0059FEA7-6CD5-4642-AD4D-C66E2C117582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0059FEA7-6CD5-4642-AD4D-C66E2C117582}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
